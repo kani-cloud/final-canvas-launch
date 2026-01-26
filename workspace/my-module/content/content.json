@@ -93,8 +93,8 @@
                               "expandImage": "Expand Image",
                               "minimizeImage": "Minimize Image",
                               "file": {
-                                "path": "./images/file-68bf1522ec19e.jpg",
-                                "mime": "image/jpeg",
+                                "path": "images/file-68bf03a306d75.png",
+                                "mime": "image/png",
                                 "copyright": {
                                   "license": "U"
                                 },
