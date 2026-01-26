@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My H5P Training Module</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body>
+    <div id="h5p-container"></div>
+
+    <script src="dist/main.bundle.js"></script>
+    <script>
+      new H5PStandalone.H5P(document.getElementById('h5p-container'), {
+        h5pJsonPath: 'workspace/my-module'
+      });
+    </script>
+  </body>
+</html>
