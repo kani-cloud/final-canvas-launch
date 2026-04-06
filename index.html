@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <title>My H5P Training Module</title>
 
-    <!-- Correct base URL for GitHub Pages -->
-    <base href="https://kani-cloud.github.io/final-canvas-launch/">
+    <!-- Ensures GitHub Pages resolves all relative paths correctly -->
+    <base href="https://kani-cloud.github.io/h5p-standalone-3.8.0/">
 
     <!-- H5P Standalone CSS -->
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="h5p.css" />
+    <link rel="stylesheet" href="h5p-standalone-3.8.0/dist/styles.css" />
+    <link rel="stylesheet" href="h5p-standalone-3.8.0/h5p.css" />
   </head>
 
   <body>
     <div id="h5p-container"></div>
 
     <!-- H5P Standalone JS -->
-    <script src="dist/main.bundle.js"></script>
-    <script src="frame.bundle.js"></script>
+    <script src="h5p-standalone-3.8.0/dist/main.bundle.js"></script>
+    <script src="h5p-standalone-3.8.0/frame.bundle.js"></script>
 
     <script>
       new H5PStandalone.H5P(document.getElementById('h5p-container'), {
